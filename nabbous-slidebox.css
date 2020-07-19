@@ -28,7 +28,7 @@ input[type=checkbox].nabbous-slidebox {
 	 top: 50%;
 	 transform-origin: center center;
 	 transform: translate(-50%, -50%) scale(0.8);
-	 width: 100%;
+	 width: 0;
 	 filter: brightness(150%);
 }
  input[type=checkbox].nabbous-slidebox::after {
