@@ -14,6 +14,6 @@
 ### Custom color
 just simply change the font color like this:
 
-`<input type="checkbox" class="nabbous-slidebox" style="color:">`
+`<input type="checkbox" class="nabbous-slidebox" style="color:#CD5B45">`
 
 et voila
