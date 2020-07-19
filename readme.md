@@ -1,4 +1,4 @@
-### [example (click me)](https://jsfiddle.net/hu8024wL/)
+### [example (click me)](https://jsfiddle.net/psdjvy27/19/)
 ![unchecked slidebox image](https://i.imgur.com/KovDQBR.png)
 ![checked slidebox image](https://i.imgur.com/RKXEOjZ.png)
 
