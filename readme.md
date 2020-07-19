@@ -1,4 +1,4 @@
-### [example](https://jsfiddle.net/jefhmznp/)
+### [example (click me)](https://jsfiddle.net/hu8024wL/)
 ![unchecked slidebox image](https://i.imgur.com/KovDQBR.png)
 ![checked slidebox image](https://i.imgur.com/RKXEOjZ.png)
 
@@ -11,4 +11,9 @@
 
 `<input type="checkbox" class="nabbous-slidebox">`
     
+### Custom color
+just simply change the font color like this:
+
+`<input type="checkbox" class="nabbous-slidebox" style="color:">`
+
 et voila
