@@ -21,18 +21,19 @@ input[type=checkbox].nabbous-slidebox {
   }
 
   &::before {
+    direction: ltr;
     position: absolute;
-    content: '\f111\f111\f111\f111\f111\f111';
+    content: '\f111\f111\f111\f111\f111\f111\f111';
     font-weight: 900;
     font-family: 'Font Awesome 5 Free';
     display: block;
     letter-spacing: -$spacing;
-    margin-left: -$spacing;
+    margin-left: $spacing * 0.5;
     left: 50%;
     top: 50%;
     transform-origin: center center;
     transform: translate(-50%, -50%) scale(0.8);
-    width: 0;
+    width: #{$spacing * 4};
     filter: brightness(150%);
   }
 
