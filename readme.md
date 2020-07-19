@@ -5,7 +5,7 @@
 
 ### Usage
 
-- make sure you include (font awesome)[https://fontawesome.com/] in your html
+- make sure you include [font awesome](https://fontawesome.com/) in your html
 - include the css of the slidebox
 - add the class `nabbous-slidebox` like this:
 
