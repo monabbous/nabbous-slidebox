@@ -17,18 +17,19 @@ input[type=checkbox].nabbous-slidebox {
 	 outline: auto 5px -webkit-focus-ring-color;
 }
  input[type=checkbox].nabbous-slidebox::before {
+	 direction: ltr;
 	 position: absolute;
-	 content: '\f111\f111\f111\f111\f111\f111';
+	 content: '\f111\f111\f111\f111\f111\f111\f111';
 	 font-weight: 900;
 	 font-family: 'Font Awesome 5 Free';
 	 display: block;
 	 letter-spacing: -0.8em;
-	 margin-left: -0.8em;
+	 margin-left: 0.4em;
 	 left: 50%;
 	 top: 50%;
 	 transform-origin: center center;
 	 transform: translate(-50%, -50%) scale(0.8);
-	 width: 0;
+	 width: 3.2em;
 	 filter: brightness(150%);
 }
  input[type=checkbox].nabbous-slidebox::after {
