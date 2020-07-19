@@ -1,4 +1,4 @@
-### [example](https://jsfiddle.net/jefhmznp/embed/)
+### [example](https://jsfiddle.net/jefhmznp/)
 
 ### Usage
 
