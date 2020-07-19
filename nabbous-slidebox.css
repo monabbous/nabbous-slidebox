@@ -1,0 +1,76 @@
+input[type=checkbox].nabbous-slidebox {
+	 -webkit-appearance: none !important;
+	 -moz-appearance: none !important;
+	 -ms-appearance: none !important;
+	 -o-appearance: none !important;
+	 appearance: none !important;
+	 line-height: 0px;
+	 position: relative;
+	 color: blue;
+	 transition: filter 0.2s ease-in-out;
+	 outline: 0 !important;
+	 cursor: pointer;
+	 padding: 0 0.4em;
+	 filter: saturate(0) brightness(150%);
+}
+ input[type=checkbox].nabbous-slidebox:focus::after {
+	 outline: auto 5px -webkit-focus-ring-color;
+}
+ input[type=checkbox].nabbous-slidebox::before {
+	 position: absolute;
+	 content: '\f111\f111\f111\f111\f111\f111';
+	 font-weight: 900;
+	 font-family: 'Font Awesome 5 Free';
+	 display: block;
+	 letter-spacing: -0.8em;
+	 margin-left: -0.8em;
+	 left: 50%;
+	 top: 50%;
+	 transform-origin: center center;
+	 transform: translate(-50%, -50%) scale(0.8);
+	 width: 100%;
+	 filter: brightness(150%);
+}
+ input[type=checkbox].nabbous-slidebox::after {
+	 line-height: 1em;
+	 position: relative;
+	 content: '\f111';
+	 font-weight: 900;
+	 padding: 0.4em;
+	 font-family: 'Font Awesome 5 Free';
+	 display: block;
+	 transform-origin: center center;
+	 animation-duration: 0.2s;
+	 animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6);
+	 animation-fill-mode: forwards;
+	 animation-name: slideboxUnchecked;
+}
+ input[type=checkbox].nabbous-slidebox:checked {
+	 filter: saturate(1);
+}
+ input[type=checkbox].nabbous-slidebox:checked::after {
+	 animation-name: slideboxChecked;
+}
+ input[type=checkbox].nabbous-slidebox:active:checked::after {
+	 transform: translateX(calc(50% - 0.4em)) scale(1.1) !important;
+}
+ input[type=checkbox].nabbous-slidebox:active:not(:checked)::after {
+	 transform: translateX(calc(-50% + 0.4em)) scale(1.1) !important;
+}
+ @keyframes slideboxChecked {
+	 from {
+		 transform: translateX(calc(-50% + 0.4em));
+	}
+	 to {
+		 transform: translateX(calc(50% - 0.4em));
+	}
+}
+ @keyframes slideboxUnchecked {
+	 from {
+		 transform: translateX(calc(50% - 0.4em));
+	}
+	 to {
+		 transform: translateX(calc(-50% + 0.4em));
+	}
+}
+ 
