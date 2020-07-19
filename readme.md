@@ -1,4 +1,7 @@
 ### [example](https://jsfiddle.net/jefhmznp/)
+![unchecked slidebox image](https://i.imgur.com/KovDQBR.png)
+![checked slidebox image](https://i.imgur.com/RKXEOjZ.png)
+
 
 ### Usage
 
